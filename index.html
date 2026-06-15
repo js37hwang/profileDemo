@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo">FE_DEV.</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>안녕하세요, <br>프론트엔드 개발자 <span>홍길동</span>입니다.</h1>
+                <p>사용자 경험을 개선하고 효율적인 컴포넌트 설계를 지향합니다. 웹 표준과 성능 최적화에 관심이 많습니다.</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/본인계정" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/본인계정" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://velog.io/@본인계정" target="_blank" title="Velog"><i class="fas fa-blog"></i></a>
+                    <a href="https://instagram.com/본인계정" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/300" alt="프로필 이미지">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="tags">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                        <span>TypeScript</span><span>Vue.js</span><span>React</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Build Tools</h3>
+                    <div class="tags">
+                        <span>Node.js</span><span>Spring</span><span>Vite</span><span>Webpack</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Deployment & Co-work</h3>
+                    <div class="tags">
+                        <span>Git</span><span>GitHub Actions</span><span>Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid" id="portfolio-grid"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 홍길동. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
